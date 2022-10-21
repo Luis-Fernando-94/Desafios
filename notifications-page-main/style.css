@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    padding: 8px 32px 8px 32px;
+    border-radius: 12px;
+    box-shadow: 0 1px 7px hsl(205, 33%, 90%);
+    background-color: hsl(0, 0%, 100%);
+}
+.header-notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.title-notification {
+    color: hsl(224, 21%, 14%);
+}
+#qtd {
+    margin-left: 16px;
+    padding: 0 12px 2px 12px;
+    border-radius: 6px;
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+.btn-mark {
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 14%, 63%);
+}
+.btn-mark:hover {
+    cursor: pointer;
+}
+.card {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 8px 0 8px 0;
+    border-radius: 8px;
+}
+.card:hover {
+    background-color: hsl(210, 60%, 98%);
+    box-shadow: 0 2px 7px hsl(205, 33%, 90%);
+    transition: 500ms;
+}
+.avatar {
+    width: 42px;
+    margin-right: 20px;
+}
+.p-card {
+    position: relative;
+    width: calc(100% - 46px);
+}
+.header-card {
+    color: hsl(219, 14%, 63%);
+}
+.unread {
+    margin-left: 8px;
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+}
+.title-card {
+    margin-right: 3px;
+    text-decoration: none;
+    color: hsl(224, 21%, 14%);
+}
+.link-card {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+}
+.link {
+    color: hsl(219, 85%, 26%);
+}
+.title-card, .link-card, .link {
+    font-weight: 800;
+}
+.link-card, .link {
+    margin-left: 3px;
+}
+.title-card:hover, .link-card:hover, .link:hover {
+    color: hsl(219, 85%, 26%);
+    transition: 500ms;
+}
+.time {
+    color: hsl(219, 14%, 63%);
+    font-weight: 400;
+}
+.msg {
+    margin-top: 8px;
+    padding: 14px;
+    border: solid 1px hsl(205, 33%, 90%);
+    border-radius: 4px;
+    color: hsl(219, 14%, 63%);
+}
+.msg:hover {
+    cursor: pointer;
+    border: solid 1px hsl(211, 68%, 94%);
+    background-color: hsl(211, 68%, 94%);
+    transition: 500ms;
+}
+.p-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.picture {
+    width: 42px;
+}
+.picture:hover {
+    border: solid 4px hsl(211, 68%, 94%);
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
